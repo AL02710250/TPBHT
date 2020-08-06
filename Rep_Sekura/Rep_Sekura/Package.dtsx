@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{2A1467AC-A87D-4D8E-AF96-DAD852A9EAE1}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{D954BDAC-4A7B-4C23-8AA7-9240A256A0CC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,181 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA7wcI7KItYN59ukF6h2ZaQQBvhw1cVW+OzAnBV6fEFkwAAAAAOgAAAAAIAACAAAAANZ0vLMDr/0Q8/KRtkN8tWizmfFsNJ7vnDEzOSgxxCdxAAAABfPBUftvdYLBcrmlcJROp4QAAAACUk2tc2xRLlDuzISws4BEK2hLSVuJyw7sqaPCMyBnHDitltYD5Oq3SYJebDfJw4MIF3fMZSHo8ei5sn7YDSiGg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAZvgl3zG8XbD48svX70odFPrYLrKIDOLLjHy4EzHAvDgAAAAAOgAAAAAIAACAAAACXAtyA5qtFc4V1nvKuodNd97TeZkW5nprjU+qVrmMgIBAAAACBhQTFwo1QhyxmFu7ZndcIQAAAABUs6TvkY1filadXmpbEGLMFMguBBbR3wwV9+YLw5+YSTQbY6F6iwXw/cYUniXR95OaovpFA1q7zrUJDZmM/jPE</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Descargasapp]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Descargasapp"
+      DTS:DTSID="{7E77B72E-4324-4F86-9AB1-DF6CEBAAA03E}"
+      DTS:ObjectName="Descargasapp">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2058"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="D:\Paquetes IS\Rep_Sekura\Rep_Sekura\csv\Download\Descargasapp.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Id Zona"
+              DTS:DTSID="{D62FB09F-27EE-4CE4-828D-B208C7F4EB1B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Zona"
+              DTS:DTSID="{B845FAA0-717E-49BE-9081-242DC46C17D4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Id Sucursal"
+              DTS:DTSID="{D09DC633-2614-492A-BB4C-B9AF1AEF9733}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sucursal"
+              DTS:DTSID="{04F36A65-5AA2-4DB6-A41A-8EB0116CE9C3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Nombre del cliente"
+              DTS:DTSID="{A797F930-E16E-4190-942D-0513A75FA4AE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID del cliente"
+              DTS:DTSID="{F31A9A9F-490A-45EE-ACBA-E55A5BCB2D10}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Fecha de descarga registro"
+              DTS:DTSID="{3B373AD4-DCF1-4226-B1CA-9C4F3D7914C2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Fecha y hora de Ãºltimo ingreso"
+              DTS:DTSID="{5831AB4A-1922-4F01-A35A-2D78557EBEEE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de referidos"
+              DTS:DTSID="{95511F52-2193-48E3-BAED-551BE58ABD9C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de referidos-prospecto"
+              DTS:DTSID="{52A01070-9F05-481F-B81D-A6F268B93313}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de referidos-con crÃ©dito"
+              DTS:DTSID="{6A42C948-2EA0-4B8D-ACE2-015CAB2BD5B0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de referidos-con ahorro"
+              DTS:DTSID="{072F1EE4-B6B2-489F-B3AB-9258C33B055A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de referidos - con crÃ©dito y ahorro"
+              DTS:DTSID="{66DC15E5-2073-4AC8-A5C1-9DADAC0B8BFB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de puntos acumulados por referidos-prospecto"
+              DTS:DTSID="{015A2719-17E8-4324-8F5B-9D5FAECDEA8B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de puntos acumulados por referidos-con crÃ©dito"
+              DTS:DTSID="{77D0F473-A476-45EF-A9BB-80AA18C0F12C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de puntos acumulados por clientes con ahorro"
+              DTS:DTSID="{44D1805A-C232-4B65-98A2-8E31A79FD000}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NÃºmero de puntos acumulados por trivias"
+              DTS:DTSID="{4ACA9575-6D89-4BE3-83CD-ACDEB3F1323F}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +220,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACngFIM/FVnuenfs4eheZRP/UioPRPISMy2SnK9gidzyQAAAAAOgAAAAAIAACAAAAC1/Zy5eoYdW48j20kxhYLS4I6mIBWBPL9MmU4fq6L3sCAAAACQfPFjTstTAfVQFkMxL3sey/23DQwnr7T6tUUDG74ajkAAAABxtcRKAfN9ru/ChytGODNTcOhVOJ9Ok1aduLqLbyPnHD3VaSIQBzrMIf47kXKwM/o1WeiSxhXSRFxC0MrU2S3A</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAfQv+WpZs+OUjy0e6ZqjJjdtQJtrsAFmA59ifMzTsO+QAAAAAOgAAAAAIAACAAAAB7r8nPNDmKQ/pRbGhaH5+h7AZIKYiVyMgN+QvZrt2+cyAAAAABgW42wBOwFcnNQSCOZ7ire8XvZPuSixWdYMN2gMMjf0AAAADfBgUq+UgOL6IDZQKl0MmG1xMPVLiGujAcg9Cu4Fn0g97P68LE9ZvA0xQQ7CMcvtDDl95517nLIucI9HOgk1WX</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -66,8 +240,137 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABTJVDGU5WPxGuw8Iuj7izse8pIaMawGQqIjPW7xfbsqwAAAAAOgAAAAAIAACAAAAC0pTUtXAK9h6ivpvQw28cqQhdpbpDC3e36SmMA+g+VeyAAAADbh76eSm2EiNeUvcFIdo52+iRZgy8sjI09q8C2D7UAdEAAAACxXojgjzhz8L7zJ8Q7ZsS8tWn/PSR2qCBnj9tjoVAxKEI8fXU91JfjHAiie/mBLjSTwAkyf3IEl5LWlOsnGY2b</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACztzLAwTSDiv+04IyEw9Tnt2+57BrYLw7yZhbZJOKhvgAAAAAOgAAAAAIAACAAAADbOOjlms3Wl4tGK1+VjJqMbJFEXQ7Xq2YBjLqFd4urNiAAAABgRvKN1D2sf1i106tHfWf6C4KIQ1z3zUrNf+Viagzj4EAAAABMRA52aWfwpezk9P5RO8X3Z9SLBMj2vPaerhf2dJLhWBaigtYjmDEIYUCunvASkL7ayt/VwRkjAS3QWwFun3sR</DTS:Property>
           </DTS:FtpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ReporteReferidos]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="ReporteReferidos"
+      DTS:DTSID="{84BE773D-ACBD-41B1-B8F1-389668459CCD}"
+      DTS:ObjectName="ReporteReferidos">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2058"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="D:\Paquetes IS\Rep_Sekura\Rep_Sekura\csv\Download\ReporteReferidos.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Nombre del cliente que refiere"
+              DTS:DTSID="{9E8C146E-A1EC-490B-BA80-250A53C3D1B9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID del cliente que refiere"
+              DTS:DTSID="{BE8CAF1C-5DDD-4FA0-BB06-525C6090FE39}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Fecha de alta de referido"
+              DTS:DTSID="{7EBF61D5-8B6D-4DD4-8198-93752EB9320E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Nombre del referido"
+              DTS:DTSID="{D14F07E5-C7C0-46E1-B7BE-1887E5E2FD38}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TelÃ©fono del referido"
+              DTS:DTSID="{723A4665-D261-4C59-9A44-53370848C821}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Estatus referido"
+              DTS:DTSID="{A32F607C-348A-4D95-B04B-DEA11B3DCF77}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Especialista"
+              DTS:DTSID="{C0D94D7A-E830-4F82-AE12-1530855455D1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Correo del Especialista"
+              DTS:DTSID="{59B7C362-1F83-4F64-8E9E-5B2675281B2A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Id Zona"
+              DTS:DTSID="{9CCB2335-9A82-496B-B1C4-934FC618A550}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Zona"
+              DTS:DTSID="{EF7A9F04-BC35-48E3-9A91-AF52E33FEEE0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Id Sucursal"
+              DTS:DTSID="{EAB546EB-543F-4B82-90A1-BA05EA4470F2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sucursal"
+              DTS:DTSID="{D1D1786F-31A3-4221-9262-891565129F8E}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -151,6 +454,1590 @@
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
+      DTS:refId="Package\Data Flow Task"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{47F0418C-A5F8-4AFA-8AF9-E0A94A9C6BE4}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow Task\Descargasapp"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2058"
+              name="Descargasapp"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Descargasapp.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Descargasapp]"
+                  connectionManagerRefId="Package.ConnectionManagers[Descargasapp]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Id Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Id Zona]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Id Zona]"
+                      name="Id Zona"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Zona]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Zona]"
+                      name="Zona"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Id Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Id Sucursal]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Id Sucursal]"
+                      name="Id Sucursal"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Sucursal]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Sucursal]"
+                      name="Sucursal"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Nombre del cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Nombre del cliente]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Nombre del cliente]"
+                      name="Nombre del cliente"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[ID del cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[ID del cliente]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[ID del cliente]"
+                      name="ID del cliente"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Fecha de descarga registro]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Fecha de descarga registro]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Fecha de descarga registro]"
+                      name="Fecha de descarga registro"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Fecha y hora de Ãºltimo ingreso]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Fecha y hora de Ãºltimo ingreso]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Fecha y hora de Ãºltimo ingreso]"
+                      name="Fecha y hora de Ãºltimo ingreso"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos]"
+                      name="NÃºmero de referidos"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-prospecto]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos-prospecto]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-prospecto]"
+                      name="NÃºmero de referidos-prospecto"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-con crÃ©dito]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos-con crÃ©dito]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-con crÃ©dito]"
+                      name="NÃºmero de referidos-con crÃ©dito"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-con ahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos-con ahorro]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-con ahorro]"
+                      name="NÃºmero de referidos-con ahorro"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos - con crÃ©dito y ahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos - con crÃ©dito y ahorro]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos - con crÃ©dito y ahorro]"
+                      name="NÃºmero de referidos - con crÃ©dito y ahorro"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por referidos-prospecto]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por referidos-prospecto]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por referidos-prospecto]"
+                      name="NÃºmero de puntos acumulados por referidos-prospecto"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por referidos-con crÃ©dito]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por referidos-con crÃ©dito]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por referidos-con crÃ©dito]"
+                      name="NÃºmero de puntos acumulados por referidos-con crÃ©dito"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por clientes con ahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por clientes con ahorro]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por clientes con ahorro]"
+                      name="NÃºmero de puntos acumulados por clientes con ahorro"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por trivias]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por trivias]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por trivias]"
+                      name="NÃºmero de puntos acumulados por trivias"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Id Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Id Zona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Zona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Id Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Id Sucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Sucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Nombre del cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Nombre del cliente" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[ID del cliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ID del cliente" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Fecha de descarga registro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Fecha de descarga registro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[Fecha y hora de Ãºltimo ingreso]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Fecha y hora de Ãºltimo ingreso" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de referidos" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos-prospecto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de referidos-prospecto" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos-con crÃ©dito]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de referidos-con crÃ©dito" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos-con ahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de referidos-con ahorro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de referidos - con crÃ©dito y ahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de referidos - con crÃ©dito y ahorro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por referidos-prospecto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de puntos acumulados por referidos-prospecto" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por referidos-con crÃ©dito]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de puntos acumulados por referidos-con crÃ©dito" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por clientes con ahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de puntos acumulados por clientes con ahorro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].ExternalColumns[NÃºmero de puntos acumulados por trivias]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="NÃºmero de puntos acumulados por trivias" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Descargasapp_temp]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[BI]"
+                  connectionManagerRefId="Package.ConnectionManagers[BI]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Zona]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Zona"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Zona]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Zona]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Sucursal]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Sucursal"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sucursal]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Sucursal]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Id Zona]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Id Zona"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IdZona]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Id Zona]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Id Sucursal]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Id Sucursal"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IdSucursal]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Id Sucursal]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Nombre del cliente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Nombre del cliente"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nombrecliente]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Nombre del cliente]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ID del cliente]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID del cliente"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IDcliente]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[ID del cliente]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Fecha de descarga registro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Fecha de descarga registro"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fechadescargaregistro]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Fecha de descarga registro]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Fecha y hora de Ãºltimo ingreso]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Fecha y hora de Ãºltimo ingreso"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fechahoraultimoingreso]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[Fecha y hora de Ãºltimo ingreso]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de referidos]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de referidos"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de referidos-prospecto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de referidos-prospecto"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_prospecto]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-prospecto]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de referidos-con crÃ©dito]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de referidos-con crÃ©dito"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_credito]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-con crÃ©dito]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de referidos-con ahorro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de referidos-con ahorro"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_ahorro]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos-con ahorro]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de referidos - con crÃ©dito y ahorro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de referidos - con crÃ©dito y ahorro"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_creditoahorro]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de referidos - con crÃ©dito y ahorro]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de puntos acumulados por referidos-prospecto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de puntos acumulados por referidos-prospecto"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladosreferidos_prospecto]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por referidos-prospecto]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de puntos acumulados por referidos-con crÃ©dito]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de puntos acumulados por referidos-con crÃ©dito"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladosreferidos_credito]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por referidos-con crÃ©dito]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de puntos acumulados por clientes con ahorro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de puntos acumulados por clientes con ahorro"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladosclientesahorro]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por clientes con ahorro]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NÃºmero de puntos acumulados por trivias]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NÃºmero de puntos acumulados por trivias"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladostrivias]"
+                      lineageId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output].Columns[NÃºmero de puntos acumulados por trivias]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IdZona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="IdZona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Zona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IdSucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="IdSucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Sucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nombrecliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Nombrecliente" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IDcliente]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="IDcliente" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fechadescargaregistro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Fechadescargaregistro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fechahoraultimoingreso]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Fechahoraultimoingreso" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeroreferidos" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_prospecto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeroreferidos_prospecto" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_credito]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeroreferidos_credito" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_ahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeroreferidos_ahorro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeroreferidos_creditoahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeroreferidos_creditoahorro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladosreferidos_prospecto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeropuntosacumuladosreferidos_prospecto" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladosreferidos_credito]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeropuntosacumuladosreferidos_credito" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladosclientesahorro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeropuntosacumuladosclientesahorro" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Numeropuntosacumuladostrivias]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Numeropuntosacumuladostrivias" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\OLE DB Destination 1"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination 1"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[ReporteReferidos_temp]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\OLE DB Destination 1.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[BI]"
+                  connectionManagerRefId="Package.ConnectionManagers[BI]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Especialista]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Especialista"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Especialista]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Especialista]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Zona]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Zona"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Zona]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Zona]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Sucursal]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Sucursal"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Sucursal]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Sucursal]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Nombre del cliente que refiere]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Nombre del cliente que refiere"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Nombreclienterefiere]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Nombre del cliente que refiere]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Id Sucursal]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Id Sucursal"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[IdSucursal]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Id Sucursal]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Id Zona]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Id Zona"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[IdZona]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Id Zona]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Correo del Especialista]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Correo del Especialista"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[CorreoEspecialista]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Correo del Especialista]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Estatus referido]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Estatus referido"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Estatusreferido]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Estatus referido]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Nombre del referido]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Nombre del referido"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Nombrereferido]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Nombre del referido]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[ID del cliente que refiere]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID del cliente que refiere"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[IDclienterefiere]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[ID del cliente que refiere]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[TelÃ©fono del referido]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TelÃ©fono del referido"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Telefonoreferido]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[TelÃ©fono del referido]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[Fecha de alta de referido]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Fecha de alta de referido"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Fechaaltareferido]"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Fecha de alta de referido]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Nombreclienterefiere]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Nombreclienterefiere" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[IDclienterefiere]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="IDclienterefiere" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Fechaaltareferido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Fechaaltareferido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Nombrereferido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Nombrereferido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Telefonoreferido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Telefonoreferido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Estatusreferido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Estatusreferido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Especialista]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Especialista" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[CorreoEspecialista]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="CorreoEspecialista" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[IdZona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="IdZona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Zona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[IdSucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="IdSucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="Sucursal" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\OLE DB Destination 1.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\OLE DB Destination 1.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\ReporteReferidos"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2058"
+              name="ReporteReferidos"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\ReporteReferidos.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ReporteReferidos]"
+                  connectionManagerRefId="Package.ConnectionManagers[ReporteReferidos]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Nombre del cliente que refiere]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Nombre del cliente que refiere]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Nombre del cliente que refiere]"
+                      name="Nombre del cliente que refiere"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[ID del cliente que refiere]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[ID del cliente que refiere]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[ID del cliente que refiere]"
+                      name="ID del cliente que refiere"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Fecha de alta de referido]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Fecha de alta de referido]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Fecha de alta de referido]"
+                      name="Fecha de alta de referido"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Nombre del referido]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Nombre del referido]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Nombre del referido]"
+                      name="Nombre del referido"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[TelÃ©fono del referido]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[TelÃ©fono del referido]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[TelÃ©fono del referido]"
+                      name="TelÃ©fono del referido"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Estatus referido]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Estatus referido]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Estatus referido]"
+                      name="Estatus referido"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Especialista]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Especialista]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Especialista]"
+                      name="Especialista"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Correo del Especialista]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Correo del Especialista]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Correo del Especialista]"
+                      name="Correo del Especialista"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Id Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Id Zona]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Id Zona]"
+                      name="Id Zona"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Zona]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Zona]"
+                      name="Zona"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Id Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Id Sucursal]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Id Sucursal]"
+                      name="Id Sucursal"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Sucursal]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].Columns[Sucursal]"
+                      name="Sucursal"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Nombre del cliente que refiere]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Nombre del cliente que refiere" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[ID del cliente que refiere]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ID del cliente que refiere" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Fecha de alta de referido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Fecha de alta de referido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Nombre del referido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Nombre del referido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[TelÃ©fono del referido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TelÃ©fono del referido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Estatus referido]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Estatus referido" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Especialista]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Especialista" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Correo del Especialista]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Correo del Especialista" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Id Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Id Zona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Zona]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Zona" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Id Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Id Sucursal" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output].ExternalColumns[Sucursal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Sucursal" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output]"
+              endId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\Descargasapp.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output1]"
+              endId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\ReporteReferidos.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Execute Process Task"
       DTS:CreationName="Microsoft.ExecuteProcess"
       DTS:Description="Execute Process Task"
@@ -167,6 +2054,23 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Execute SQL Task"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{3D1FCAA5-1579-4671-B4A2-2CB0446C5FE6}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6379CB08-0C66-4AD8-B4C4-5C61B87B4BE4}"
+          SQLTask:SqlStatementSource="use Tcr_TeCreemosBI&#xA;go&#xA;truncate table Descargasapp_temp&#xA;go&#xA;truncate table ReporteReferidos_temp&#xA;go" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\FTP Task"
       DTS:CreationName="Microsoft.FtpTask"
       DTS:Description="FTP Task"
@@ -175,7 +2079,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="FTP Task"
       DTS:TaskContact="FTP Task; Microsoft Corporation; SQL Server 2016; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <FtpData
@@ -196,7 +2100,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="FTP Task 1"
       DTS:TaskContact="FTP Task; Microsoft Corporation; SQL Server 2016; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <FtpData
@@ -592,10 +2496,11 @@ namespace ST_2d4c051078db475ca85b6f04a217bc47
             //MessageBox.Show(Dts.Variables["User::ruta2"].Value.ToString());
             //MessageBox.Show(file);
             //MessageBox.Show(nombre);
+            /*
             MessageBox.Show(ruta);
             MessageBox.Show(rutafa);
             MessageBox.Show(rutafb);
-
+            */
 
 
 
@@ -623,15 +2528,15 @@ namespace ST_2d4c051078db475ca85b6f04a217bc47
             Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
 <c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
 	<msb:PropertyGroup>
-		<msb:Language>msBuild</msb:Language>
 		<msb:CodeName>ST_2d4c051078db475ca85b6f04a217bc47</msb:CodeName>
+		<msb:Language>msBuild</msb:Language>
 		<msb:DisplayName>ST_2d4c051078db475ca85b6f04a217bc47</msb:DisplayName>
 		<msb:ProjectId>{C9E0649D-546E-4855-B12D-720764D63043}</msb:ProjectId>
 	</msb:PropertyGroup>
 	<msb:ItemGroup>
 		<msb:Project Include="ST_2d4c051078db475ca85b6f04a217bc47.csproj"/>
-		<msb:File Include="Properties\Settings.settings"/>
 		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Settings.settings"/>
 		<msb:File Include="Properties\Resources.resx"/>
 		<msb:File Include="Properties\Resources.Designer.cs"/>
 		<msb:File Include="Properties\Settings.Designer.cs"/>
@@ -748,121 +2653,112 @@ namespace ST_2d4c051078db475ca85b6f04a217bc47.Properties {
           <BinaryItem
             Name="ST_2d4c051078db475ca85b6f04a217bc47.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDACBiK18AAAAAAAAAAOAAIiALATAAABIAAAAIAAAAAAAAajAA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAI17K18AAAAAAAAAAOAAIiALATAAABAAAAAIAAAAAAAA+i8A
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAABgwAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAKgvAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAcBAAAAAgAAAAEgAAAAIA
-AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAUAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAGgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABM
-MAAAAAAAAEgAAAACAAUA8CEAAHANAAABAAAAAAAAAGAvAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAABMwBQAuAQAAAQAAESgQAAAKChIAcgEAAHAoEQAACiZyEwAA
-cAtyLQAAcAxyTwAAcBMEclkAAHASAHIBAABwKBEAAAoNJRMFAigSAAAKbxMAAApyvQAAcG8UAAAK
-EQVvFQAACgcJEQQoFgAAChMGAigSAAAKbxMAAApy0wAAcG8UAAAKEQZvFQAACggJEQQoFgAAChMH
-AigSAAAKbxMAAApy8wAAcG8UAAAKEQdvFQAACnITAQBwEwhyFQEAcAcJEQQoFwAAChMIAigSAAAK
-bxMAAApyGQEAcG8UAAAKEQhvFQAACnITAQBwEwlyFQEAcAgJEQQoFwAAChMJAigSAAAKbxMAAApy
-MwEAcG8UAAAKEQlvFQAACigYAAAKJhEIKBgAAAomEQkoGAAACiYCKBIAAAoWbxkAAAoqHgIoGgAA
-CioeAigbAAAKKq5+AQAABC0eck0BAHDQAwAAAigcAAAKbx0AAApzHgAACoABAAAEfgEAAAQqGn4C
-AAAEKh4CgAIAAAQqGn4DAAAEKh4CKB8AAAoqLnMIAAAGgAMAAAQqQlNKQgEAAQAAAAAADAAAAHY0
-LjAuMzAzMTkAAAAABQBsAAAAAAQAACN+AABsBAAAqAUAACNTdHJpbmdzAAAAABQKAADAAQAAI1VT
-ANQLAAAQAAAAI0dVSUQAAADkCwAAjAEAACNCbG9iAAAAAAAAAAIAAAFXHaIBCQMAAAD6ATMAFgAA
-AQAAACEAAAAFAAAABgAAAAkAAAABAAAAHwAAAAIAAAAQAAAAAQAAAAIAAAADAAAABAAAAAEAAAAF
-AAAAAQAAAAEAAAAAAH4DAQAAAAAABgAuAk4EBgC9Ak4EBgB6ATsEDwDCBAAABgCnAfwDBgARAvwD
-BgDyAfwDBgCkAvwDBgBOAvwDBgBnAvwDBgC+AfwDBgDZAesCCgCCAi0DCgD5AC0DBgCbAK8DBgC2
-A68DBgBdATsEBgBRBa8DBgAeBG4EBgAOBOcDDgAtAWgDDgCOAWgDDgAVAdIDBgBCAU4ECgBWAy0D
-EgAEBaQAEgBuAKQABgAHA68DFgCFBRcFFgBkBRcFBgDEAK8DBgB3AK8DBgCeBfwDAAAAACUAAAAA
-AAEAAQABABAAxwMBADkAAQABAAAAEAB1BNEESQABAAMAAAEQAA4F0QRdAAMABwADAQAAPAUAAEEA
-BAAKABEAuwOPABEA6QCTABEAXgCXAAYGTQCbAFaALAWeAFaAyQCeAFAgAAAAAIYAzQMGAAEAiiEA
-AAAAhhguBAYAAQCSIQAAAACDGC4EBgABAJohAAAAAJMIGgSiAAEAxiEAAAAAkwjRAKcAAQDNIQAA
-AACTCN0ArAABANUhAAAAAJYIWAWyAAIA3CEAAAAAhhguBAYAAgDkIQAAAACRGDQEtwACAAAAAQDl
-AgkALgQBABEALgQGABkALgQKACkALgQQADEALgQQADkALgQQAEEALgQQAEkALgQQAFEALgQQAFkA
-LgQQAGEALgQQAGkALgQGAIkALgQGALEALgQVAMEALgQGAHkAkAUpAHkABQMuAHEANAUzAMkAAAU4
-ANEApgM9ANkA2wJDAOEASgVIAOEASgVPAOkAgAVXAMkAcQUBAHEALgQGAJEALgQGAPkAiQBdAPkA
-mgVlAJkALgRrALkALgQGAAgAFACFAAgAGACKACkAcwDyAC4ACwDKAC4AEwDTAC4AGwDyAC4AIwD7
-AC4AKwAkAS4AMwAkAS4AOwAkAS4AQwD7AC4ASwAqAS4AUwAkAS4AWwBBAUMAYwCKAEkAcwDyAGEA
-ewCKAGMAawCKABsAAwABAAQAAwAAAB4EuwAAAPEAwAAAAFwFxQACAAQAAwACAAUABQABAAYABQAC
-AAcABwAEgAAAAQAAAGIdqJIAAAAAAAABAAAABAAAAAAAAAAAAAAAcwBVAAAAAAANAAAAAAAAAAAA
-AAB8AA4DAAAAAAQAAAAAAAAAAAAAAHMArwMAAAAADQAAAAAAAAAAAAAAfAAuAAAAAAAEAAAAAAAA
-AAAAAABzABcFAAAAAAAAAAABAAAAfwQAAAUAAgAAAABTVF8yZDRjMDUxMDc4ZGI0NzVjYTg1YjZm
-MDRhMjE3YmM0NwA8TW9kdWxlPgBNaWNyb3NvZnQuU3FsU2VydmVyLk1hbmFnZWREVFMAdmFsdWVf
-XwBtc2NvcmxpYgBkZWZhdWx0SW5zdGFuY2UAVmFyaWFibGUAUnVudGltZVR5cGVIYW5kbGUAR2V0
-VHlwZUZyb21IYW5kbGUARGF0ZVRpbWUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUnVudGltZQBU
-eXBlAEZhaWx1cmUAZ2V0X0N1bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VDdWx0dXJlAFZTVEFS
-VFNjcmlwdE9iamVjdE1vZGVsQmFzZQBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBFZGl0b3JCcm93
-c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2Rl
-QXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRlAEFz
-c2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJh
-bWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJseURl
-c2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1i
-bHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3JpcHRU
-YXNrRW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNv
-bXBhdGliaWxpdHlBdHRyaWJ1dGUAc2V0X1ZhbHVlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNp
-b25pbmcAVG9TdHJpbmcATWljcm9zb2Z0LlNxbFNlcnZlci5TY3JpcHRUYXNrAE1pY3Jvc29mdC5T
-cWxTZXJ2ZXIuRHRzLlRhc2tzLlNjcmlwdFRhc2sAU2NyaXB0T2JqZWN0TW9kZWwAU3lzdGVtLkNv
-bXBvbmVudE1vZGVsAFNUXzJkNGMwNTEwNzhkYjQ3NWNhODViNmYwNGEyMTdiYzQ3LmRsbABnZXRf
-SXRlbQBTeXN0ZW0ARW51bQByZXNvdXJjZU1hbgBTY3JpcHRNYWluAFN5c3RlbS5Db25maWd1cmF0
-aW9uAFN5c3RlbS5HbG9iYWxpemF0aW9uAFN5c3RlbS5SZWZsZWN0aW9uAEN1bHR1cmVJbmZvAGdl
-dF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0u
-UnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNvdXJjZXMAU1RfMmQ0YzA1MTA3OGRi
-NDc1Y2E4NWI2ZjA0YTIxN2JjNDcuUHJvcGVydGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERlYnVn
-Z2luZ01vZGVzAFNUXzJkNGMwNTEwNzhkYjQ3NWNhODViNmYwNGEyMTdiYzQ3LlByb3BlcnRpZXMA
-Z2V0X1ZhcmlhYmxlcwBTZXR0aW5ncwBTeXN0ZW0uV2luZG93cy5Gb3JtcwBTdWNjZXNzAGdldF9E
-dHMAU2NyaXB0UmVzdWx0cwBDb25jYXQAT2JqZWN0AGdldF9EZWZhdWx0AERpYWxvZ1Jlc3VsdABz
-ZXRfVGFza1Jlc3VsdABTaG93AE1lc3NhZ2VCb3gAZ2V0X1RvZGF5AGdldF9Bc3NlbWJseQAAABF5
-AHkAeQB5AE0ATQBkAGQAABlEAGUAcwBjAGEAcgBnAGEAcwBhAHAAcAAAIVIAZQBwAG8AcgB0AGUA
-UgBlAGYAZQByAGkAZABvAHMAAAkuAGMAcwB2AABjRAA6AFwAUABhAHEAdQBlAHQAZQBzACAASQBT
-AFwAUgBlAHAAXwBTAGUAawB1AHIAYQBcAFIAZQBwAF8AUwBlAGsAdQByAGEAXABjAHMAdgBcAEQA
-bwB3AG4AbABvAGEAZAAAFVUAcwBlAHIAOgA6AHIAdQB0AGEAAB9VAHMAZQByADoAOgBBAHIAYwBo
-AGkAdgBvADAAMQAAH1UAcwBlAHIAOgA6AEEAcgBjAGgAaQB2AG8AMAAyAAABAAMvAAAZVQBzAGUA
-cgA6ADoAcgB1AHQAYQBmAGEAABlVAHMAZQByADoAOgByAHUAdABhAGYAYgAAcVMAVABfADIAZAA0
-AGMAMAA1ADEAMAA3ADgAZABiADQANwA1AGMAYQA4ADUAYgA2AGYAMAA0AGEAMgAxADcAYgBjADQA
-NwAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUAcgBjAGUAcwAAAM3W150yMopHjb/B
-8aS/bZMABCABAQgDIAABBSABARERBCABAQ4FIAEBEVUNBwoRPQ4ODg4ODg4ODgQAABE9BCABDg4E
-IAASZQQgABJpBSABEm0cBCABARwGAAMODg4OBwAEDg4ODg4FAAEReQ4HAAESfRGAgQUgABKAhQcg
-AgEOEoCFCLd6XFYZNOCJCImEXc2AgMyRBAAAAAAEAQAAAAMGEk0DBhJRAwYSEAIGCAMGERQEAAAS
-TQQAABJRBQABARJRBAAAEhADAAABBAgAEk0ECAASUQQIABIQCAEACAAAAAAAHgEAAQBUAhZXcmFw
-Tm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTVF8yZDRjMDUxMDc4ZGI0NzVjYTg1YjZm
-MDRhMjE3YmM0NwAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDIwAABJAQAaLk5FVEZyYW1ld29y
-ayxWZXJzaW9uPXY0LjUBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQu
-NQC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29y
-bGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3
-YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAA
-AAAAAFBBRFBBRFC0AAAAQDAAAAAAAAAAAAAAWjAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEww
-AAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAABAAAAAgAAAAEAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAASAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAGAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAADc
+LwAAAAAAAEgAAAACAAUA3CEAABQNAAABAAAAAAAAAPAuAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABMwBAAXAQAAAQAAESgQAAAKChIAcgEAAHAoEQAACiZyEwAA
+cAtyLQAAcAxyTwAAcBMEclkAAHASAHIBAABwKBEAAAoNEwUCKBIAAApvEwAACnK9AABwbxQAAAoR
+BW8VAAAKBwkRBCgWAAAKEwYCKBIAAApvEwAACnLTAABwbxQAAAoRBm8VAAAKCAkRBCgWAAAKEwcC
+KBIAAApvEwAACnLzAABwbxQAAAoRB28VAAAKchMBAHATCHIVAQBwBwkRBCgXAAAKEwgCKBIAAApv
+EwAACnIZAQBwbxQAAAoRCG8VAAAKchMBAHATCXIVAQBwCAkRBCgXAAAKEwkCKBIAAApvEwAACnIz
+AQBwbxQAAAoRCW8VAAAKAigSAAAKFm8YAAAKKh4CKBkAAAoqHgIoGgAACiqufgEAAAQtHnJNAQBw
+0AMAAAIoGwAACm8cAAAKcx0AAAqAAQAABH4BAAAEKhp+AgAABCoeAoACAAAEKhp+AwAABCoeAige
+AAAKKi5zCAAABoADAAAEKgAAAEJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAANwD
+AAAjfgAASAQAAHgFAAAjU3RyaW5ncwAAAADACQAAwAEAACNVUwCACwAAEAAAACNHVUlEAAAAkAsA
+AIQBAAAjQmxvYgAAAAAAAAACAAABVx2iAQkDAAAA+gEzABYAAAEAAAAfAAAABQAAAAYAAAAJAAAA
+AQAAAB4AAAACAAAAEAAAAAEAAAACAAAAAwAAAAQAAAABAAAABAAAAAEAAAABAAAAAAB+AwEAAAAA
+AAYALgJOBAYAvQJOBAYAegE7BA8AwgQAAAYApwH8AwYAEQL8AwYA8gH8AwYApAL8AwYATgL8AwYA
+ZwL8AwYAvgH8AwYA2QHrAgoAggItAwoA+QAtAwYAmwCvAwYAtgOvAwYAXQE7BAYAPAWvAwYAHgRu
+BAYADgTnAw4ALQFoAw4AjgFoAw4AFQHSAwYAQgFOBAoAVgMtAxIABAWkABIAbgCkAAYABwOvAwYA
+xACvAwYAdwCvAwYAbAX8AwAAAAAlAAAAAAABAAEAAQAQAMcDAQA5AAEAAQAAABAAdQTRBEkAAQAD
+AAABEAAOBdEEXQADAAcAAwEAACcFAABBAAQACgARALsDhgARAOkAigARAF4AjgAGBk0AkgBWgBcF
+lQBWgMkAlQBQIAAAAACGAM0DBgABAHMhAAAAAIYYLgQGAAEAeyEAAAAAgxguBAYAAQCDIQAAAACT
+CBoEmQABAK8hAAAAAJMI0QCeAAEAtiEAAAAAkwjdAKMAAQC+IQAAAACWCEMFqQACAMUhAAAAAIYY
+LgQGAAIAzSEAAAAAkRg0BK4AAgAAAAEA5QIJAC4EAQARAC4EBgAZAC4ECgApAC4EEAAxAC4EEAA5
+AC4EEABBAC4EEABJAC4EEABRAC4EEABZAC4EEABhAC4EEABpAC4EBgCJAC4EBgCxAC4EFQDBAC4E
+BgB5AF4FKQB5AAUDLgBxAB8FMwDJAAAFOADRAKYDPQDZANsCQwDhADUFSADhADUFTwDJAE8FAQBx
+AC4EBgCRAC4EBgDpAIkAVwDpAGgFXgCZAC4EYwC5AC4EBgAIABQAfAAIABgAgQApAHMA6QAuAAsA
+wQAuABMAygAuABsA6QAuACMA8gAuACsAGwEuADMAGwEuADsAGwEuAEMA8gAuAEsAIQEuAFMAGwEu
+AFsAOAFDAGMAgQBJAHMA6QBhAHsAgQBjAGsAgQAbAAMAAQAEAAMAAAAeBLIAAADxALcAAABHBbwA
+AgAEAAMAAgAFAAUAAQAGAAUAAgAHAAcABIAAAAEAAABiHV6fAAAAAAAAAQAAAAQAAAAAAAAAAAAA
+AGoAVQAAAAAADQAAAAAAAAAAAAAAcwAOAwAAAAAEAAAAAAAAAAAAAABqAK8DAAAAAA0AAAAAAAAA
+AAAAAHMALgAAAAAAAAAAAAEAAAB/BAAABQACAAAAAAAAU1RfMmQ0YzA1MTA3OGRiNDc1Y2E4NWI2
+ZjA0YTIxN2JjNDcAPE1vZHVsZT4ATWljcm9zb2Z0LlNxbFNlcnZlci5NYW5hZ2VkRFRTAHZhbHVl
+X18AbXNjb3JsaWIAZGVmYXVsdEluc3RhbmNlAFZhcmlhYmxlAFJ1bnRpbWVUeXBlSGFuZGxlAEdl
+dFR5cGVGcm9tSGFuZGxlAERhdGVUaW1lAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlJ1bnRpbWUA
+VHlwZQBGYWlsdXJlAGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBWU1RB
+UlRTY3JpcHRPYmplY3RNb2RlbEJhc2UAQXBwbGljYXRpb25TZXR0aW5nc0Jhc2UARWRpdG9yQnJv
+d3NhYmxlU3RhdGUAQ29tcGlsZXJHZW5lcmF0ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25Vc2VyQ29k
+ZUF0dHJpYnV0ZQBEZWJ1Z2dhYmxlQXR0cmlidXRlAEVkaXRvckJyb3dzYWJsZUF0dHJpYnV0ZQBB
+c3NlbWJseVRpdGxlQXR0cmlidXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAFRhcmdldEZy
+YW1ld29ya0F0dHJpYnV0ZQBBc3NlbWJseUNvbmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNzZW1ibHlE
+ZXNjcmlwdGlvbkF0dHJpYnV0ZQBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAEFzc2Vt
+Ymx5UHJvZHVjdEF0dHJpYnV0ZQBBc3NlbWJseUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lTU2NyaXB0
+VGFza0VudHJ5UG9pbnRBdHRyaWJ1dGUAQXNzZW1ibHlDb21wYW55QXR0cmlidXRlAFJ1bnRpbWVD
+b21wYXRpYmlsaXR5QXR0cmlidXRlAHNldF9WYWx1ZQB2YWx1ZQBTeXN0ZW0uUnVudGltZS5WZXJz
+aW9uaW5nAFRvU3RyaW5nAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuU2NyaXB0VGFzawBNaWNyb3NvZnQu
+U3FsU2VydmVyLkR0cy5UYXNrcy5TY3JpcHRUYXNrAFNjcmlwdE9iamVjdE1vZGVsAFN5c3RlbS5D
+b21wb25lbnRNb2RlbABTVF8yZDRjMDUxMDc4ZGI0NzVjYTg1YjZmMDRhMjE3YmM0Ny5kbGwAZ2V0
+X0l0ZW0AU3lzdGVtAEVudW0AcmVzb3VyY2VNYW4AU2NyaXB0TWFpbgBTeXN0ZW0uQ29uZmlndXJh
+dGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0uUmVmbGVjdGlvbgBDdWx0dXJlSW5mbwBn
+ZXRfUmVzb3VyY2VNYW5hZ2VyAC5jdG9yAC5jY3RvcgBTeXN0ZW0uRGlhZ25vc3RpY3MAU3lzdGVt
+LlJ1bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcwBTeXN0ZW0uUmVzb3VyY2VzAFNUXzJkNGMwNTEwNzhk
+YjQ3NWNhODViNmYwNGEyMTdiYzQ3LlByb3BlcnRpZXMuUmVzb3VyY2VzLnJlc291cmNlcwBEZWJ1
+Z2dpbmdNb2RlcwBTVF8yZDRjMDUxMDc4ZGI0NzVjYTg1YjZmMDRhMjE3YmM0Ny5Qcm9wZXJ0aWVz
+AGdldF9WYXJpYWJsZXMAU2V0dGluZ3MAU3VjY2VzcwBnZXRfRHRzAFNjcmlwdFJlc3VsdHMAQ29u
+Y2F0AE9iamVjdABnZXRfRGVmYXVsdABzZXRfVGFza1Jlc3VsdABnZXRfVG9kYXkAZ2V0X0Fzc2Vt
+Ymx5AAAAAAAReQB5AHkAeQBNAE0AZABkAAAZRABlAHMAYwBhAHIAZwBhAHMAYQBwAHAAACFSAGUA
+cABvAHIAdABlAFIAZQBmAGUAcgBpAGQAbwBzAAAJLgBjAHMAdgAAY0QAOgBcAFAAYQBxAHUAZQB0
+AGUAcwAgAEkAUwBcAFIAZQBwAF8AUwBlAGsAdQByAGEAXABSAGUAcABfAFMAZQBrAHUAcgBhAFwA
+YwBzAHYAXABEAG8AdwBuAGwAbwBhAGQAABVVAHMAZQByADoAOgByAHUAdABhAAAfVQBzAGUAcgA6
+ADoAQQByAGMAaABpAHYAbwAwADEAAB9VAHMAZQByADoAOgBBAHIAYwBoAGkAdgBvADAAMgAAAQAD
+LwAAGVUAcwBlAHIAOgA6AHIAdQB0AGEAZgBhAAAZVQBzAGUAcgA6ADoAcgB1AHQAYQBmAGIAAHFT
+AFQAXwAyAGQANABjADAANQAxADAANwA4AGQAYgA0ADcANQBjAGEAOAA1AGIANgBmADAANABhADIA
+MQA3AGIAYwA0ADcALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAc
+/0o1tKJ/ToWJC3WxliruAAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFVDQcKET0ODg4ODg4ODg4E
+AAARPQQgAQ4OBCAAEmUEIAASaQUgARJtHAQgAQEcBgADDg4ODgcABA4ODg4OBgABEnUReQQgABJ9
+BiACAQ4SfQi3elxWGTTgiQiJhF3NgIDMkQQAAAAABAEAAAADBhJNAwYSUQMGEhACBggDBhEUBAAA
+Ek0EAAASUQUAAQESUQQAABIQAwAAAQQIABJNBAgAElEECAASEAgBAAgAAAAAAB4BAAEAVAIWV3Jh
+cE5vbkV4Y2VwdGlvblRocm93cwEIAQACAAAAAAAoAQAjU1RfMmQ0YzA1MTA3OGRiNDc1Y2E4NWI2
+ZjA0YTIxN2JjNDcAAAUBAAAAABYBABFDb3B5cmlnaHQgQCAgMjAyMAAASQEAGi5ORVRGcmFtZXdv
+cmssVmVyc2lvbj12NC41AQBUDhRGcmFtZXdvcmtEaXNwbGF5TmFtZRIuTkVUIEZyYW1ld29yayA0
+LjUAALQAAADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNj
+b3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1i
+NzdhNWM1NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAA
+AAAAAAAAUEFEUEFEULQAAADQLwAAAAAAAAAAAADqLwAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+3C8AAAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAA
+AAAAAAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAA
+AABIAAAAWEAAABoEAAAAAAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBP
+AAAAAAC9BO/+AAABAAAAAQBen2IdAAABAF6fYh0/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA
+RAAAAAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBv
+AG4AAAAAAAAAsAR6AwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAA
+MAAwADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABh
+AG4AeQBOAGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4A
+AAAAAFMAVABfADIAZAA0AGMAMAA1ADEAMAA3ADgAZABiADQANwA1AGMAYQA4ADUAYgA2AGYAMAA0
+AGEAMgAxADcAYgBjADQANwAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAA
+LgA3ADUAMgAyAC4ANAAwADcAOQA4AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAA
+AFMAVABfADIAZAA0AGMAMAA1ADEAMAA3ADgAZABiADQANwA1AGMAYQA4ADUAYgA2AGYAMAA0AGEA
+MgAxADcAYgBjADQANwAuAGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0
+AAAAQwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAAMgAwAAAAKgABAAEATABlAGcAYQBsAFQA
+cgBhAGQAZQBtAGEAcgBrAHMAAAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBu
+AGEAbQBlAAAAUwBUAF8AMgBkADQAYwAwADUAMQAwADcAOABkAGIANAA3ADUAYwBhADgANQBiADYA
+ZgAwADQAYQAyADEANwBiAGMANAA3AC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBt
+AGUAAAAAAFMAVABfADIAZAA0AGMAMAA1ADEAMAA3ADgAZABiADQANwA1AGMAYQA4ADUAYgA2AGYA
+MAA0AGEAMgAxADcAYgBjADQANwAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAA
+ADEALgAwAC4ANwA1ADIAMgAuADQAMAA3ADkAOAAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAA
+VgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwA1ADIAMgAuADQAMAA3ADkAOAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAEAEAAAABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAAADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAA
-AEgAAABYQAAAGgQAAAAAAAAAAAAAGgQ0AAAAVgBTAF8AVgBFAFIAUwBJAE8ATgBfAEkATgBGAE8A
-AAAAAL0E7/4AAAEAAAABAKiSYh0AAAEAqJJiHT8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABE
-AAAAAQBWAGEAcgBGAGkAbABlAEkAbgBmAG8AAAAAACQABAAAAFQAcgBhAG4AcwBsAGEAdABpAG8A
-bgAAAAAAAACwBHoDAAABAFMAdAByAGkAbgBnAEYAaQBsAGUASQBuAGYAbwAAAFYDAAABADAAMAAw
-ADAAMAA0AGIAMAAAABoAAQABAEMAbwBtAG0AZQBuAHQAcwAAAAAAAAAiAAEAAQBDAG8AbQBwAGEA
-bgB5AE4AYQBtAGUAAAAAAAAAAABwACQAAQBGAGkAbABlAEQAZQBzAGMAcgBpAHAAdABpAG8AbgAA
-AAAAUwBUAF8AMgBkADQAYwAwADUAMQAwADcAOABkAGIANAA3ADUAYwBhADgANQBiADYAZgAwADQA
-YQAyADEANwBiAGMANAA3AAAAPgAPAAEARgBpAGwAZQBWAGUAcgBzAGkAbwBuAAAAAAAxAC4AMAAu
-ADcANQAyADIALgAzADcANQA0ADQAAAAAAHAAKAABAEkAbgB0AGUAcgBuAGEAbABOAGEAbQBlAAAA
-UwBUAF8AMgBkADQAYwAwADUAMQAwADcAOABkAGIANAA3ADUAYwBhADgANQBiADYAZgAwADQAYQAy
-ADEANwBiAGMANAA3AC4AZABsAGwAAABIABIAAQBMAGUAZwBhAGwAQwBvAHAAeQByAGkAZwBoAHQA
-AABDAG8AcAB5AHIAaQBnAGgAdAAgAEAAIAAgADIAMAAyADAAAAAqAAEAAQBMAGUAZwBhAGwAVABy
-AGEAZABlAG0AYQByAGsAcwAAAAAAAAAAAHgAKAABAE8AcgBpAGcAaQBuAGEAbABGAGkAbABlAG4A
-YQBtAGUAAABTAFQAXwAyAGQANABjADAANQAxADAANwA4AGQAYgA0ADcANQBjAGEAOAA1AGIANgBm
-ADAANABhADIAMQA3AGIAYwA0ADcALgBkAGwAbAAAAGgAJAABAFAAcgBvAGQAdQBjAHQATgBhAG0A
-ZQAAAAAAUwBUAF8AMgBkADQAYwAwADUAMQAwADcAOABkAGIANAA3ADUAYwBhADgANQBiADYAZgAw
-ADQAYQAyADEANwBiAGMANAA3AAAAQgAPAAEAUAByAG8AZAB1AGMAdABWAGUAcgBzAGkAbwBuAAAA
-MQAuADAALgA3ADUAMgAyAC4AMwA3ADUANAA0AAAAAABGAA8AAQBBAHMAcwBlAG0AYgBsAHkAIABW
-AGUAcgBzAGkAbwBuAAAAMQAuADAALgA3ADUAMgAyAC4AMwA3ADUANAA0AAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADAAAAGwwAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAwAAAD8PwAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -871,7 +2767,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </ScriptProject>
       </DTS:ObjectData>
     </DTS:Executable>
@@ -909,6 +2805,22 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Execute Process Task" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{180A7CEB-16BC-4AC7-BE9B-789F77C12582}"
+      DTS:From="Package\Execute Process Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Execute SQL Task" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{1FE4AE39-1633-4F47-B3C2-8D0037986265}"
+      DTS:From="Package\Execute SQL Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 5"
+      DTS:To="Package\Data Flow Task" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -921,7 +2833,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="122,42"
           Id="Package\Variables"
@@ -1074,8 +2986,154 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Data Flow Task"
+          TopLeft="347,375" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Execute SQL Task"
+          TopLeft="344,301" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="424.75,272">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29"
+              Start="0,0"
+              End="0,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="424,343">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32"
+              Start="0,0"
+              End="0,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\Data Flow Task">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Data Flow Task\Descargasapp"
+          TopLeft="158,111" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\Data Flow Task\ReporteReferidos"
+          TopLeft="158,213" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="423,109" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task\OLE DB Destination 1"
+          TopLeft="418,209" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="303,131">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="120,0"
+              Start="0,0"
+              End="112.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="112.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
+          TopLeft="318,232">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="100,0"
+              Start="0,0"
+              End="92.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="92.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\OLE DB Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
