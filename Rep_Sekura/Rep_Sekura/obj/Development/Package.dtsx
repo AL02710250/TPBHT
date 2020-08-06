@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{28B4520D-2691-4055-880F-CB37ACA0C5F0}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{CA5CD394-3052-45DB-9CAA-B3AD85F8866B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -31,7 +31,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACUlG/yPSYwf8DasikOtaBhQsGuZXdtPkcNV2R1hPA9tgAAAAAOgAAAAAIAACAAAAA3ucQ30/Bqop8bvO7nsd882Jw61+RfD4sjJCaVGLOqnSAAAAC03vjJM0zV1HDjzn1SDtEc2cmDbb7El6zItqhiJznng0AAAAArSY3hrLPQG2FBb3uBVsod6+hDlZDJ8UGuycj/TPk8CnWakNixQuVzOYe7IhQZW3afGkr0I0oWUzwTl7VEzT8r</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAJxOsTnbFMwR3njTG+CJhDA3QwxmWFyPt84Zkin5BBxwAAAAAOgAAAAAIAACAAAACtW+1fB57ELxnGM7z4uwXSOspMp9k3We27Em3MyHInWyAAAADx59mggjhp6UB0a4WKs6HSPeEph9rh9xMk+hHwyCuB00AAAAB467UnmKxxFq7FqBDXrllFSk/WffuWGdsnHvSyVycYp6ocQuoSYxbiXfldXFHI8oRERqYLsVW/RR2aJTqw2L3L</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -51,7 +51,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAvOGeHYvcmRAK6x8ogye9LQS+sXNsG05TGl9ilOsmZBgAAAAAOgAAAAAIAACAAAAB28UVwvcuBNBL5644fEQPppmlD6mbxxvBx6fFLKLbz1iAAAACwmtUQO/Bqb9nYNmIE0AjeGetmApob9m9n92sxQVSMCUAAAAAEb4cTcoyOTkWsZMEHYVaakYUdpeZm4LqaIvyRORrekPUb0Fthh4a9AOHe18gENPBoV+Vf3IiIhDKwddcYuYHA</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAJ/Mixi5SDxanqAO8EGP+y9oS+bE2sNjkSWDsjDF7/nQAAAAAOgAAAAAIAACAAAACOoTehq8O9IbGSKKAF17pPIK+TdlqaDBmXnbltllTghCAAAAAAn6d+9elSp7eXkSxwcfGMR2Ds7YkVPFmYQRJqTnOO0UAAAADbxLv+0qMwdpqUTtc686P2y205delxlGrwnMHjTI0DJ/Txos4JcSOCUrzxRoAofo7rVf0wdB+HyoWTQIq9hwU+</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -136,6 +136,22 @@
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
+      DTS:refId="Package\Execute Process Task"
+      DTS:CreationName="Microsoft.ExecuteProcess"
+      DTS:Description="Execute Process Task"
+      DTS:DTSID="{8C91C0C1-1961-4F23-9D2B-4F420C93D26A}"
+      DTS:ExecutableType="Microsoft.ExecuteProcess"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Process Task"
+      DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecuteProcessData
+          Executable="D:\Paquetes IS\Rep_Sekura\Rep_Sekura\bat\Ren.bat" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\FTP Task"
       DTS:CreationName="Microsoft.FtpTask"
       DTS:Description="FTP Task"
@@ -144,7 +160,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="FTP Task"
       DTS:TaskContact="FTP Task; Microsoft Corporation; SQL Server 2016; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <FtpData
@@ -165,7 +181,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="FTP Task 1"
       DTS:TaskContact="FTP Task; Microsoft Corporation; SQL Server 2016; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <FtpData
@@ -862,6 +878,22 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\FTP Task 1" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{A50DFBBA-3069-438D-A6CC-49183FCCC684}"
+      DTS:From="Package\FTP Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Execute Process Task" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{A324DDF0-452D-4E58-B44F-44DB43DED8D8}"
+      DTS:From="Package\FTP Task 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Execute Process Task" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -882,33 +914,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
         <NodeLayout
           Size="122,42"
           Id="Package\FTP Task"
-          TopLeft="250,140" />
+          TopLeft="282,142" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="431,93">
+          TopLeft="412,93">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-120,47"
+              EndConnector="-69,49"
               Start="0,0"
-              End="-120,39.5">
+              End="-69,41.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.5" />
+                    End="0,15.9805825242718" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,19.5"
-                    Point2="0,23.5"
-                    Point3="-4,23.5" />
+                    Point1="0,15.9805825242718"
+                    Point2="0,19.9805825242718"
+                    Point3="-4,19.9805825242718" />
                   <mssgle:LineSegment
-                    End="-116,23.5" />
+                    End="-65,19.9805825242718" />
                   <mssgle:CubicBezierSegment
-                    Point1="-116,23.5"
-                    Point2="-120,23.5"
-                    Point3="-120,27.5" />
+                    Point1="-65,19.9805825242718"
+                    Point2="-69,19.9805825242718"
+                    Point3="-69,23.9805825242718" />
                   <mssgle:LineSegment
-                    End="-120,39.5" />
+                    End="-69,41.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -947,6 +979,78 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
                     Point3="72,24.3883495145631" />
                   <mssgle:LineSegment
                     End="72,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Execute Process Task"
+          TopLeft="334,230" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="343,184">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="52.3333333333333,46"
+              Start="0,0"
+              End="52.3333333333333,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.3568281938326" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.3568281938326"
+                    Point2="0,27.3568281938326"
+                    Point3="4,27.3568281938326" />
+                  <mssgle:LineSegment
+                    End="48.3333333333333,27.3568281938326" />
+                  <mssgle:CubicBezierSegment
+                    Point1="48.3333333333333,27.3568281938326"
+                    Point2="52.3333333333333,27.3568281938326"
+                    Point3="52.3333333333333,31.3568281938326" />
+                  <mssgle:LineSegment
+                    End="52.3333333333333,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="522,185">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-69.3333333333334,45"
+              Start="0,0"
+              End="-69.3333333333334,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.7621145374449" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.7621145374449"
+                    Point2="0,26.7621145374449"
+                    Point3="-4,26.7621145374449" />
+                  <mssgle:LineSegment
+                    End="-65.3333333333334,26.7621145374449" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-65.3333333333334,26.7621145374449"
+                    Point2="-69.3333333333334,26.7621145374449"
+                    Point3="-69.3333333333334,30.7621145374449" />
+                  <mssgle:LineSegment
+                    End="-69.3333333333334,37.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
