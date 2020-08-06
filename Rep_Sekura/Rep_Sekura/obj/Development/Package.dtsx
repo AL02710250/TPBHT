@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{D954BDAC-4A7B-4C23-8AA7-9240A256A0CC}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{459F3B90-233C-453D-837E-C3675284875F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAsbAXaZiJeLo9HbO7dUTUbCdbQTAFCwxVwKmpBwNJ6mgAAAAAOgAAAAAIAACAAAADvZ2cOCTFjIAxwW74PdSPzlMBuvubH15qM5k8uD8ym/hAAAAD9P3U49itrXA7H9Dqnks8hQAAAAFjNI4oDjxdY8GUgv0vLHD1e+886qtoDBO/Q+bf9R/GvclBkStg2qDK/xCTaWIhEKYiMKf9qMNiG8XsQOjdJtVs</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA0wtUwv/IMhmAacMhvCDL/HfdnoRlHtQKrnHwkzjwstAAAAAAOgAAAAAIAACAAAAAfg7q8efZqzKFOHKoxr6g10SGsYS/jKyTVB7EIh17WtBAAAADGhpJWo4fJzUkAJkFRmrycQAAAAMc1yNzuGk7thjfRYVm3+/HaCgUKvdHViMnQPOatAAVP+t7fBY1rWwaPFZxmOsliWTXX+mLHsPZRjs7BGYZsOaE</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -220,7 +220,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABJBHrtJTQrP708ACQme/YpDFP48ekIWjdQLrDKzF8PiwAAAAAOgAAAAAIAACAAAAAgpoq34kl/XX3A6gsINdegecUxB6lyy04xQ4uL5iXxRyAAAADvlwOPKzPo6kTvsGGsDYkhGq3kby97GFM4uXt33ECwd0AAAABcZM4dPbv7GhCFKOfpnXaCNoxRu85WxahboxIS76b56wg8irHYw+TUieTLkjAMzUaup0iAq7DY4R+7osFayyrq</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAtojis1xqn/40O/LC3711yQOv8HmSvF4pn0DuoBvzmOQAAAAAOgAAAAAIAACAAAABdkqfo1g+s2/FUPoF32CH40Xo48Bt6jCDLP2AbZxu3sCAAAACc8/Z6hLgIqjQLibc/bLfdbTLCuE+xDv6vepnmSIewxUAAAABn1SHea6Ph8OMcxY0IDsGIO4zwrBdianH2g9c38xqbFmVom4mSNHwEeHBavhrPmyOnrJrI828KhJqT/7o3nvKg</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -240,7 +240,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACURllpn6fPnED+Pi269eoNmP1Vn7y+QzfSIws+geT6TQAAAAAOgAAAAAIAACAAAAAg+47Dpa30e8ActNep7cfYzriZKF9vnAnRV448X5Ui0iAAAAC6XKc9VRcxizdt/xhs1JPB/X9OaS3Fs38xkxGjBfPi2UAAAAD/ynd8HP9B24yrOZngWIFwOwD8nLAnQmPhMq3nqodHjdkXWV6Y14zW7sr0PN4uU1mUVIR5XiYVyAzKVi7cpnPC</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWMvhdFOnRkqI2l8Hh5i/6wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB05IQB4nT3QihTgci2BZ03t8F5UgopYuFwEZRwVNRhswAAAAAOgAAAAAIAACAAAAB5IioF2scEnIg+/1UUrnX+ubij8n6gVDaTIMW7XIzg7SAAAADmmUZ+qceKjP9C4bgIYSUzmFey0GZBGge83m54pmxyQ0AAAADxyh2bhrsxlo7gttlru7nZDoacEGcRfk6DHP4z00a3rUkYfErXLMTBc1RkgJ48j+pXCJSBBn/JqJuerPbCD/BZ</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -2038,6 +2038,40 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Error Mail DA"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{fef1fb7b-5854-4104-b29d-8fdba407411c}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Error Mail DA"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6379CB08-0C66-4AD8-B4C4-5C61B87B4BE4}"
+          SQLTask:SqlStatementSource="exec Tcr_Staging..tcrp_mail @correos = 'jcreyes@tecreemos.com',@asunto = 'SekuraReportes - DescargasApp', @cuerpo = 'No existe el archivo en el ftp'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Error Mail RR"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{065A8496-9912-41DC-AD54-0BA1721C8612}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Error Mail RR"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6379CB08-0C66-4AD8-B4C4-5C61B87B4BE4}"
+          SQLTask:SqlStatementSource="exec Tcr_Staging..tcrp_mail @correos = 'jcreyes@tecreemos.com',@asunto = 'SekuraReportes - ReportesReferidos', @cuerpo = 'No existe el archivo en el ftp'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Execute Process Task"
       DTS:CreationName="Microsoft.ExecuteProcess"
       DTS:Description="Execute Process Task"
@@ -2068,6 +2102,23 @@
         <SQLTask:SqlTaskData
           SQLTask:Connection="{6379CB08-0C66-4AD8-B4C4-5C61B87B4BE4}"
           SQLTask:SqlStatementSource="use Tcr_TeCreemosBI&#xA;go&#xA;truncate table Descargasapp_temp&#xA;go&#xA;truncate table ReporteReferidos_temp&#xA;go" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute SQL Task 1"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{D4A24248-D679-4324-8217-06171C7863CE}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task 1"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6379CB08-0C66-4AD8-B4C4-5C61B87B4BE4}"
+          SQLTask:SqlStatementSource="truncate table Tcr_TeCreemosBI..tcrt_sekrep_reportereferidos&#xA;go&#xA;truncate table Tcr_TeCreemosBI..tcrt_sekrep_descargasapp&#xA;go" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -2110,6 +2161,40 @@
           TaskLocalPath="User::ruta"
           TaskIsRemotePathVar="True"
           TaskRemotePath="User::rutafb" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Mail DescargasApp"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{B6F78EC2-C2AB-4C2C-A4D5-D227D4CABB30}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Mail DescargasApp"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6379CB08-0C66-4AD8-B4C4-5C61B87B4BE4}"
+          SQLTask:SqlStatementSource="EXEC msdb.dbo.sp_send_dbmail&#xA;    @profile_name = 'MicroProd',&#xA;    @recipients = 'jcreyes@tecreemos.com',&#xA;    @blind_copy_recipients='jcreyes@tecreemos.com',&#xA;    @query = 'select * from Tcr_TeCreemosBI..tcrt_sekrep_descargasapp' ,&#xA;    @subject = 'SekuraReportes - DescargasApp',&#xA;    @attach_query_result_as_file = 1&#xA;&#x9;,@query_result_width&#x9;&#x9;&#x9;= 4096&#xA;&#x9;,@query_attachment_filename&#x9;&#x9;= 'DescargasApp.txt'&#xA;    ,@query_result_separator        = '|'&#xA;    ,@query_result_no_padding       = 1" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Mail ReporteReferidos"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{43DE8A73-B27D-4C3C-95B3-EC009FB70CE8}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Mail ReporteReferidos"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2016; © 2015 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6379CB08-0C66-4AD8-B4C4-5C61B87B4BE4}"
+          SQLTask:SqlStatementSource="EXEC msdb.dbo.sp_send_dbmail&#xA;    @profile_name = 'MicroProd',&#xA;    @recipients = 'jcreyes@tecreemos.com',&#xA;    @blind_copy_recipients='jcreyes@tecreemos.com',&#xA;    @query = 'select * from Tcr_TeCreemosBI..tcrt_sekrep_reportereferidos' ,&#xA;    @subject = 'SekuraReportes - ReporteReferidos',&#xA;    @attach_query_result_as_file = 1&#xA;&#x9;,@query_result_width&#x9;&#x9;&#x9;= 4096&#xA;&#x9;,@query_attachment_filename&#x9;&#x9;= 'ReporteReferidos.txt'&#xA;    ,@query_result_separator        = '|'&#xA;    ,@query_result_no_padding       = 1" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -2653,7 +2738,7 @@ namespace ST_2d4c051078db475ca85b6f04a217bc47.Properties {
           <BinaryItem
             Name="ST_2d4c051078db475ca85b6f04a217bc47.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAI17K18AAAAAAAAAAOAAIiALATAAABAAAAAIAAAAAAAA+i8A
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAEt1LF8AAAAAAAAAAOAAIiALATAAABAAAAAIAAAAAAAA+i8A
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAKgvAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2685,7 +2770,7 @@ BgB5AF4FKQB5AAUDLgBxAB8FMwDJAAAFOADRAKYDPQDZANsCQwDhADUFSADhADUFTwDJAE8FAQBx
 AC4EBgCRAC4EBgDpAIkAVwDpAGgFXgCZAC4EYwC5AC4EBgAIABQAfAAIABgAgQApAHMA6QAuAAsA
 wQAuABMAygAuABsA6QAuACMA8gAuACsAGwEuADMAGwEuADsAGwEuAEMA8gAuAEsAIQEuAFMAGwEu
 AFsAOAFDAGMAgQBJAHMA6QBhAHsAgQBjAGsAgQAbAAMAAQAEAAMAAAAeBLIAAADxALcAAABHBbwA
-AgAEAAMAAgAFAAUAAQAGAAUAAgAHAAcABIAAAAEAAABiHV6fAAAAAAAAAQAAAAQAAAAAAAAAAAAA
+AgAEAAMAAgAFAAUAAQAGAAUAAgAHAAcABIAAAAEAAABjHX1zAAAAAAAAAQAAAAQAAAAAAAAAAAAA
 AGoAVQAAAAAADQAAAAAAAAAAAAAAcwAOAwAAAAAEAAAAAAAAAAAAAABqAK8DAAAAAA0AAAAAAAAA
 AAAAAHMALgAAAAAAAAAAAAEAAAB/BAAABQACAAAAAAAAU1RfMmQ0YzA1MTA3OGRiNDc1Y2E4NWI2
 ZjA0YTIxN2JjNDcAPE1vZHVsZT4ATWljcm9zb2Z0LlNxbFNlcnZlci5NYW5hZ2VkRFRTAHZhbHVl
@@ -2719,8 +2804,8 @@ YwBzAHYAXABEAG8AdwBuAGwAbwBhAGQAABVVAHMAZQByADoAOgByAHUAdABhAAAfVQBzAGUAcgA6
 ADoAQQByAGMAaABpAHYAbwAwADEAAB9VAHMAZQByADoAOgBBAHIAYwBoAGkAdgBvADAAMgAAAQAD
 LwAAGVUAcwBlAHIAOgA6AHIAdQB0AGEAZgBhAAAZVQBzAGUAcgA6ADoAcgB1AHQAYQBmAGIAAHFT
 AFQAXwAyAGQANABjADAANQAxADAANwA4AGQAYgA0ADcANQBjAGEAOAA1AGIANgBmADAANABhADIA
-MQA3AGIAYwA0ADcALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAc
-/0o1tKJ/ToWJC3WxliruAAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFVDQcKET0ODg4ODg4ODg4E
+MQA3AGIAYwA0ADcALgBQAHIAbwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAD8
+1utQNo+2Ra9j28LhPVk/AAQgAQEIAyAAAQUgAQEREQQgAQEOBSABARFVDQcKET0ODg4ODg4ODg4E
 AAARPQQgAQ4OBCAAEmUEIAASaQUgARJtHAQgAQEcBgADDg4ODgcABA4ODg4OBgABEnUReQQgABJ9
 BiACAQ4SfQi3elxWGTTgiQiJhF3NgIDMkQQAAAAABAEAAAADBhJNAwYSUQMGEhACBggDBhEUBAAA
 Ek0EAAASUQUAAQESUQQAABIQAwAAAQQIABJNBAgAElEECAASEAgBAAgAAAAAAB4BAAEAVAIWV3Jh
@@ -2734,14 +2819,14 @@ AAAAAAAAUEFEUEFEULQAAADQLwAAAAAAAAAAAADqLwAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 3C8AAAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAA
 AAAAAAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAA
 AABIAAAAWEAAABoEAAAAAAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBP
-AAAAAAC9BO/+AAABAAAAAQBen2IdAAABAF6fYh0/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA
+AAAAAAC9BO/+AAABAAAAAQB9c2MdAAABAH1zYx0/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA
 RAAAAAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBv
 AG4AAAAAAAAAsAR6AwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAA
 MAAwADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABh
 AG4AeQBOAGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4A
 AAAAAFMAVABfADIAZAA0AGMAMAA1ADEAMAA3ADgAZABiADQANwA1AGMAYQA4ADUAYgA2AGYAMAA0
 AGEAMgAxADcAYgBjADQANwAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAA
-LgA3ADUAMgAyAC4ANAAwADcAOQA4AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAA
+LgA3ADUAMgAzAC4AMgA5ADUANgA1AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAA
 AFMAVABfADIAZAA0AGMAMAA1ADEAMAA3ADgAZABiADQANwA1AGMAYQA4ADUAYgA2AGYAMAA0AGEA
 MgAxADcAYgBjADQANwAuAGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0
 AAAAQwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAAMgAwAAAAKgABAAEATABlAGcAYQBsAFQA
@@ -2750,8 +2835,8 @@ AGEAbQBlAAAAUwBUAF8AMgBkADQAYwAwADUAMQAwADcAOABkAGIANAA3ADUAYwBhADgANQBiADYA
 ZgAwADQAYQAyADEANwBiAGMANAA3AC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBt
 AGUAAAAAAFMAVABfADIAZAA0AGMAMAA1ADEAMAA3ADgAZABiADQANwA1AGMAYQA4ADUAYgA2AGYA
 MAA0AGEAMgAxADcAYgBjADQANwAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAA
-ADEALgAwAC4ANwA1ADIAMgAuADQAMAA3ADkAOAAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAA
-VgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwA1ADIAMgAuADQAMAA3ADkAOAAAAAAAAAAAAAAAAAAA
+ADEALgAwAC4ANwA1ADIAMwAuADIAOQA1ADYANQAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAA
+VgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwA1ADIAMwAuADIAOQA1ADYANQAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2790,6 +2875,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\FTP Task 1" />
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
+      DTS:CreationName=""
+      DTS:DTSID="{48E0BA39-10A8-4C85-AC09-7A49F98DA099}"
+      DTS:From="Package\Execute SQL Task 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 10"
+      DTS:To="Package\Mail ReporteReferidos" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
       DTS:DTSID="{A50DFBBA-3069-438D-A6CC-49183FCCC684}"
@@ -2821,6 +2914,40 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"
       DTS:To="Package\Data Flow Task" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
+      DTS:CreationName=""
+      DTS:DTSID="{2289717A-E670-400B-A770-B31F30F01CD4}"
+      DTS:From="Package\FTP Task 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 6"
+      DTS:To="Package\Error Mail RR"
+      DTS:Value="1" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
+      DTS:CreationName=""
+      DTS:DTSID="{273A678E-BFA6-4EEE-B63A-54D0EF895D80}"
+      DTS:From="Package\FTP Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 7"
+      DTS:To="Package\Error Mail DA"
+      DTS:Value="1" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 8]"
+      DTS:CreationName=""
+      DTS:DTSID="{B5A0BD2E-3A47-4915-8C5E-490B96E317E6}"
+      DTS:From="Package\Data Flow Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 8"
+      DTS:To="Package\Execute SQL Task 1" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
+      DTS:CreationName=""
+      DTS:DTSID="{55963C08-DFB8-4E6D-8F4E-5C5927E9C6D1}"
+      DTS:From="Package\Execute SQL Task 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 9"
+      DTS:To="Package\Mail DescargasApp" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -2833,7 +2960,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="122,42"
           Id="Package\Variables"
@@ -3030,6 +3157,164 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Error Mail RR"
+          TopLeft="661,142" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Error Mail DA"
+          TopLeft="68,143" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="583,163.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="78,0"
+              Start="0,0"
+              End="70.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="70.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="20.00865234375,5,30.4826953125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="282,163.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-73,0"
+              Start="0,0"
+              End="-65.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-65.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-47.99134765625,5,30.4826953125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Execute SQL Task 1"
+          TopLeft="338,446" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 8]"
+          TopLeft="423.25,417">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29"
+              Start="0,0"
+              End="0,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="167,42"
+          Id="Package\Mail DescargasApp"
+          TopLeft="211,526" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Mail ReporteReferidos"
+          TopLeft="457,527" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 9]"
+          TopLeft="396.666666666667,488">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-102.166666666667,38"
+              Start="0,0"
+              End="-102.166666666667,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.4101382488479" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.4101382488479"
+                    Point2="0,15.4101382488479"
+                    Point3="-4,15.4101382488479" />
+                  <mssgle:LineSegment
+                    End="-98.1666666666667,15.4101382488479" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-98.1666666666667,15.4101382488479"
+                    Point2="-102.166666666667,15.4101382488479"
+                    Point3="-102.166666666667,19.4101382488479" />
+                  <mssgle:LineSegment
+                    End="-102.166666666667,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="451.333333333333,488">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="96.6666666666667,39"
+              Start="0,0"
+              End="96.6666666666667,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.815668202765" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.815668202765"
+                    Point2="0,15.815668202765"
+                    Point3="4,15.815668202765" />
+                  <mssgle:LineSegment
+                    End="92.6666666666667,15.815668202765" />
+                  <mssgle:CubicBezierSegment
+                    Point1="92.6666666666667,15.815668202765"
+                    Point2="96.6666666666667,15.815668202765"
+                    Point3="96.6666666666667,19.815668202765" />
+                  <mssgle:LineSegment
+                    End="96.6666666666667,31.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
